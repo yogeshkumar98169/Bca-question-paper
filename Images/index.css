@@ -1,0 +1,107 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.logo {
+	width: 50px;
+	height: 05vh;
+	border-radius: 50%;
+}
+header {
+	height: 16vh;
+	padding-top: 2vh;
+	background-color: #01161e;
+}
+header h1 {
+	background: linear-gradient(to top left, red, yellow);
+	width: fit-content;
+	color: transparent;
+	background-clip: text;
+	-webkit-background-clip: text;
+	margin: 0 auto;
+	height: 09vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.nav-bar {
+	background-color: #01161e;
+}
+nav {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 07vh;
+}
+nav ul {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	box-sizing: border-box;
+}
+nav ul li {
+	list-style-type: none;
+	padding: 05px;
+	background-color: #01161e;
+	position: relative;
+}
+nav ul li:hover {
+	border: 1px solid lightcyan;
+	border-radius: 20px;
+	background-color: #173459;
+}
+nav ul li:hover>ul {
+	display: block;
+}
+nav ul li a {
+	color: white;
+	text-decoration: none;
+	display: block;
+}
+nav ul li a:hover {
+	color: #dedede;
+	cursor: pointer;
+	color: transparent;
+	width: fit-content;
+	background: linear-gradient(to top left, red, yellow);
+	background-clip: text;
+	-webkit-background-clip: text;
+}
+nav ul ul {
+	position: absolute;
+	display: none;
+}
+nav ul ul li {
+	float: none;
+	width: 70px;
+	top: 08px;
+	display: list-item;
+}
+nav ul ul ul li {
+	top: -24px;
+	left: 76.0px;
+	width: 165px;
+}
+main {
+	height: 75vh;
+	background: linear-gradient(to top left, #000000, #01161e);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+p.notification {
+	color: white;
+	padding-top: 20px;
+	position: absolute;
+	bottom: 20vh;
+}
+footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 07vh;
+	background-color: #000a0c;
+}
+p.footer {
+	align-self: center;
+	color: white;
+}
