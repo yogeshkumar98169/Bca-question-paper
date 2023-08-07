@@ -1,0 +1,15 @@
+html, body{
+    margin: 0;
+    bottom: 0;
+}
+body{
+    background-color: rgb(59, 59, 228);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 5px;
+}
+div{
+  color: white;
+}
