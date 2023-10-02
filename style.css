@@ -144,7 +144,7 @@ div.img {
 	box-shadow: -1px 1px 4px rgb(117 138 172);
 }
 
-input[type="radio"] {
+input[type="checkbox"] {
 	display: none;
 }
 
